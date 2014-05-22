@@ -1,0 +1,18 @@
+<div class="container" >
+	
+
+	<hotel-summary hotel="hotelDetails"></hotel-summary>
+
+	<div class="row well" align="center">
+		<div><img ng-src="{{hotelDetails.image}}" title="{{hotelDetails.name}}"></img></div>
+		<div class="col-md-2"></div>
+		<div class="col-md-2" ng-bind="hotelDetails.location"></div>
+		<div class="col-md-2" ng-bind="hotelDetails.rate | convertCurrencyUSD | currency"></div>
+	</div>
+	<a href="#/hotels">Back</a>
+	<div class="row well">
+		<h2>Review</h2>
+		<textarea width="100%" ng-model="hotelDetails.review"></textarea>
+	</div>
+	<button ng-click="submitReview(hotelDetails)">Submit Review</button>
+</div>

@@ -1,0 +1,55 @@
+<style type="text/css">
+.ng-invalid {
+	border-color: red;
+}
+
+.ng-valid {
+	border-color: green;
+}
+</style>
+
+<div class="container" >
+	<div class="row well" align="center">
+		<strong>Add New Hotel</strong> 
+	</div>
+
+	
+	<div class="row well">
+
+		<form role="form" name="hotelForm">
+			<div class="form-group">
+				<label for="hotelName">Hotel Name</label>
+				<input type="text" class="form-control" id="hotelName" placeholder="enter hotel name" ng-model="hotel.name" required>
+			</div>
+			<div class="form-group">
+				<label for="hotelLocation">Location</label>
+				<input type="text" class="form-control" id="hotelLocation" placeholder="enter hotel location" ng-model="hotel.location" required>
+			</div>
+			<div class="form-group">
+				<label for="hotelRate">Daily Rate</label>
+				<input type="text" class="form-control" id="hotelRate" placeholder="enter daily tarrif" ng-model="hotel.rate" required>
+			</div>
+
+			<div class="form-group">
+				<label for="hotelImage">Hotel Photo</label>
+				<input type="text" class="form-control"  placeholder="enter hotel photo url" ng-model="hotel.image" required>
+			</div>
+			<div class="form-group">
+				<label for="hotelRating">Rating</label>
+				<input type="text" class="form-control" id="hotelRating" placeholder="enter rating" ng-model="hotel.rating" min="1" max="10" required>
+			</div>
+			
+			<!--<div class="form-group row well">
+				<label for="hotelImage">Select hotel photo</label>
+				<input type="file" id="hotelImage" ng-model="hotel.image">
+			</div>-->
+			<div class="form-group"> 
+				<button type="submit" class="btn btn-default" ng-click="sendData(hotel,hotelForm)">Save</button>
+				<img src="img/greenIcon.png" width="50px" ng-show="hotelForm.$valid">
+				<img src="img/redIcon.png" width="50px" ng-show="hotelForm.$invalid">
+				
+			</div>
+			
+		</form>
+	</div>
+</div>

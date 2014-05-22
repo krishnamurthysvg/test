@@ -1,0 +1,35 @@
+http://pastebin.com/2kJBEWy2
+
+Mongoose APplication server: Light weight
+https://www.dropbox.com/s/ekpljbqv2by6daw/mongoose-free-5.2.zip
+
+
+Angular-seed:
+https://github.com/angular/angular-seed
+
+
+
+Abhinav-Gujjar:
+https://github.com/abhinavgujjar/Wellsfargo
+
+
+
+http://getbootstrap.com/
+
+https://docs.angularjs.org/tutorial/step_09
+
+
+
+JSON database:
+http://www.firebase.com
+
+
+$http.post('https://incandescent-fire-6901.firebaseio.com/hotelsList.json',hotel);
+
+User name: 
+svgkrishnamurthy@gmail.com
+Password:
+Krishna@88
+
+
+

@@ -1,0 +1,29 @@
+<div class="row well">
+    <strong>Hotel Name:</strong> <input type="text" ng-model="hotelName">
+    
+    <!-- <strong>Location:</strong> <input type="text" ng-model="location"> -->
+  </div>
+  <div class="row well" ng-repeat="(key, hotel) in hotels | filter: {name: hotelName} | orderBy: 'rating' ">
+    <div class="col-md-2"><img width="120px" height="120px" ng-src="{{hotel.image}}" title="{{hotel.name}}" class="img-thumbnail"/></div>
+    <div class="col-md-2"><a ng-href="#/hotelDetails/{{key}}"><strong>{{hotel.name | uppercase}}</strong></a></div>
+    <hotel-summary hotel="hotel"></hotel-summary>
+    <div class="col-md-2" ng-bind="hotel.location"></div>
+    <!-- <div class="col-md-2" ng-bind="hotel.rating"></div>-->
+    <div class="col-md-2" ng-bind="hotel.rate | convertCurrencyUSD | currency"></div>
+    <div class="col-md-2" ng-bind-html="hotel.review"></div>
+    <!--<div class="col-md-3">
+      <div>
+        <button type="button" ng-click="upVote(hotel)" class="btn btn-default btn-xs">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </button>
+      </div>
+      <span class="h4"><div class="label label-info">{{hotel.rating}}</div></span>
+      <div>
+        <button type="button" ng-click="downVote(hotel)" class="btn btn-default btn-xs">
+          <span class="glyphicon glyphicon-chevron-down"></span>
+        </button>
+      </div>
+    </div>
+    <div class="col-md-2"><button ng-click="increaseVote(hotel)">Up Vote</button></div> -->
+    <rating score="hotel.rating" up="upVote(hotel)" down="downVote(hotel)"></rating>
+  </div>

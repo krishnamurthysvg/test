@@ -1,0 +1,28 @@
+<html lang="en" ng-app>
+<head>
+	<title>Block out</title>
+</head>
+<body ng-controller="BlockoutCtrl">
+	<h1 ng-bind="greet"></h1>
+	<input type="text" ng-model="from">
+	<input type="text" ng-model="to" ng-blur="doBlockout()">
+	<hr>
+	From: <h2 ng-bind="from"></h2>
+	To: <h2 ng-bind="to"></h2>
+
+	<button type="submit" ng-click="doBlockout()">Confirm</button>
+	
+	<script type="text/javascript" src="angular.min.js"></script>
+	<script type="text/javascript" src="first.js"></script>
+	<script type="text/javascript" src="second.js"></script>
+	<script type="text/javascript">
+	alert(holder);
+		function BlockoutCtrl($scope)
+		{
+			
+			$scope.doBlockout= function (){
+				alert("Doing blockout from "+$scope.from + " to "+ $scope.to);
+			}
+		}
+	</script>
+</html>

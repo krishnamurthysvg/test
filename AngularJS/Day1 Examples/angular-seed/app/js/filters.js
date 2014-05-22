@@ -1,0 +1,15 @@
+'use strict';
+
+/* Filters */
+
+angular.module('myApp.filters', []).
+  filter('interpolate', ['version', function(version) {
+    return function(text) {
+      return String(text).replace(/\%VERSION\%/mg, version);
+    };
+  }]).
+  filter('convertCurrencyUSD', function() {
+  	return function(currencyValue){
+	  		return currencyValue/60;
+	  	};
+  });

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="no-js"> 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="bower_components\bootstrap\dist\css\bootstrap.css">
+</head>
+<style>
+
+  .highlight {
+    color: orange;
+  }
+  .grey {
+    background-color: #efefef
+  }
+</style>
+<body ng-controller="hotelsController">
+
+ <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">BookMySuite</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li ><a href="#/hotels">Hotels</a></li>
+          <li ><a href="#/newHotel">New Hotel</a></li>
+          <li ><a href="#/foriegnhotels">Phoren</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+<div class="container" >
+  <div class="row well">
+    <strong>Hotel Name:</strong> <input type="text" ng-model="hotelName">
+   <!-- <strong>Location:</strong> <input type="text" ng-model="location"> -->
+  </div>
+  <div class="row well" ng-repeat="hotel in hotels | filter: {name: hotelName} | filter: {name: location } | orderBy: 'rating' ">
+    <div class="col-md-2"><img width="120px" height="120px" ng-src="{{hotel.image}}" title="{{hotel.name}}" style="border: 2px;"/></div>
+    <div class="col-md-2"><strong>{{hotel.name | uppercase}}</strong></div>
+    <div class="col-md-2" ng-bind="hotel.location"></div>
+   <!-- <div class="col-md-2" ng-bind="hotel.rating"></div>-->
+    <div class="col-md-2" ng-bind="hotel.rate | convertCurrencyUSD | currency"></div>
+    <div class="col-md-3">
+        <div>
+          <button type="button" ng-click="upVote(hotel)" class="btn btn-default btn-xs">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+          </button>
+        </div>
+        <span class="h4"><div class="label label-info">{{hotel.rating}}</div></span>
+        <div>
+          <button type="button" ng-click="downVote(hotel)" class="btn btn-default btn-xs">
+            <span class="glyphicon glyphicon-chevron-down"></span>
+          </button>
+        </div>
+      </div>
+    <!--<div class="col-md-2"><button ng-click="increaseVote(hotel)">Up Vote</button></div> -->
+  </div>
+</div>
+
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/directives.js"></script>
+  </body>
+  </html>

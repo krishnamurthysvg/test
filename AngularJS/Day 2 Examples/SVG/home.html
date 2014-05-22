@@ -1,0 +1,40 @@
+<html lang="en" ng-app>
+<head>
+	<title>Hello world</title>
+</head>
+<body ng-controller="HelloWorldCtrl">
+	<h1 ng-bind="greet"></h1>
+	<input type="text" ng-model="greet">
+	<h1>{{greet}}</h1>
+	<h3>{{score * multiplier}}</h3>
+	<h2>{{account.name}}</h2>
+
+<br><hr>
+	<h2>Accounts: </h2>
+	<div ng-repeat="account in accounts">
+		<span><strong>Name:</strong> {{account.name}}</span>
+		<span><strong>Balance:</strong> {{account.balance}}</span>
+	</div>
+	<script type="text/javascript" src="angular.min.js"></script>
+	<script type="text/javascript">
+		function HelloWorldCtrl($scope)
+		{
+			$scope.greet = "Welcome";
+			$scope.score = 20;
+			$scope.multiplier = 10;
+
+			$scope.accounts= [{
+				name: 'ABC',
+				balance: 3000
+			},
+			{
+				name: 'DEF',
+				balance: 30000
+			},
+			{
+				name: 'GHI',
+				balance: 40000
+			}]
+		}
+	</script>
+</html>

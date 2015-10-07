@@ -1,0 +1,38 @@
+My fun with katas continue.
+
+I have a supermarket where you have items like A, B, C and D sold. I use A, B, C and D to for simplicity. Our goods are priced individually. In addition, some items are multipriced: buy n of them, and they’ll cost you y rupees. For example, item ‘A’ might cost 50 rupees individually, but this week we have a special offer: buy three ‘A’s and they’ll cost you Rs.130. In fact this week’s prices are:
+
+Item   Unit      Special
+         Price     Price
+  --------------------------
+    A     50       3 for 130
+    B     30       2 for 45
+    C     20
+    D     15
+	
+
+The users can add any number of items to their cart and so when I scan the items in the billing counter in any order, the correct prices should be displayed after calculating the discount.
+
+Our checkout accepts items in any order, so that if we scan a B, an A, and another B, we’ll recognize the two B’s and price them at 45 (for a total price so far of 95). Because the pricing changes frequently, we need to be able to pass in a set of pricing rules each time we start handling a checkout transaction.	
+
+
+Here is the sample set of specs or tests that you will have to verify while building.
+Rs. 0  for no items
+Rs. 50 for A
+Rs. 80 for AB
+Rs.115 for CDBA
+Rs. 100 for AA
+Rs. 130 for AAA
+Rs.160 for AAAA
+Rs.230 for AAAAA
+Rs.260 for AAAAAA
+Rs.160 for AAAB
+Rs.175 for AAABB
+Rs.190 for AAABBD
+Rs.190 for DABABA
+
+
+
+Remember, I may change the rules anytime. For example if nobody buys D, I will introduce a discount for D. If too many people buy A, I may reduce the discount price. I may introduce different combo discounts, like buy 2 As and 1 B you get Rs.40 discount.
+
+Have fun in Jasmine.

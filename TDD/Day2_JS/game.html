@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="game.js"></script>
+		<script>
+		var game = Game.create();
+		function playButtonClicked(){
+			game.play($("#guess").val());
+			$("#message").text(game.message);
+			$("#attempts").text("Attempts : " + game.attempts);
+		}
+		$().ready(function(){
+			$("#playbutton").on("click",playButtonClicked);
+		});
+		</script>
+	</head>	
+	<body>
+		Number <input type="text" id="guess"><br/>
+		<input type="button" value="Play" id="playbutton">
+		<h1 id="message"></h1>
+		<h1 id="attempts"></h1>
+	</body>	
+</html>

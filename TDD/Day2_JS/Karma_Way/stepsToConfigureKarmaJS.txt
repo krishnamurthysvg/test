@@ -1,0 +1,11 @@
+-->Install nodejs
+
+-->npm -g install karma
+-->npm -g install karma-cli
+-->npm -g install karma-chrome-launcher
+-->npm -g install karma-jasmine
+
+-->karma init
+<In the configuration file include the src and specs js files
+
+-->karma start karma.conf.js

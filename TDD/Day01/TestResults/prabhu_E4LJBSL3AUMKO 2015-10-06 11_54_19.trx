@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="afb64eee-7a03-49ce-a6b6-6da8e72d3d6d" name="prabhu@E4LJBSL3AUMKO 2015-10-06 11:54:19" runUser="E4LJBSL3AUMKO\prabhu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9ad66556-e6a8-4430-a7ec-98e16b258229">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="prabhu_E4LJBSL3AUMKO 2015-10-06 11_54_19">
+      <DeploymentItem filename="C:\Users\prabhu.E4LJBSL3AUMKO\Dropbox\TDD_Dot_NET\Oct_2015\Day01\NumberEngineLib\bin\Debug\NumberEngineLib.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-06T11:54:19.5492419+05:30" queuing="2015-10-06T11:54:19.6172458+05:30" start="2015-10-06T11:54:19.6242462+05:30" finish="2015-10-06T11:54:19.9872669+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestSetUp" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day01\testnumberenginelib\bin\debug\testnumberenginelib.dll" id="49e7ae43-e2c1-421e-aa49-d6cde7496027">
+      <Execution id="f3aeac7b-572d-44ab-9387-347ceaa4351c" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day01/TestNumberEngineLib/bin/Debug/TestNumberEngineLib.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestNumberEngineLib.MathEngineTest, TestNumberEngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSetUp" />
+    </UnitTest>
+    <UnitTest name="TestIfNumberIsDivisbleBy3" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day01\testnumberenginelib\bin\debug\testnumberenginelib.dll" id="488f322f-562e-f4c2-7b40-833b44bfe529">
+      <Execution id="2777ead7-359e-4309-a696-42e5fcc83443" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day01/TestNumberEngineLib/bin/Debug/TestNumberEngineLib.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestNumberEngineLib.MathEngineTest, TestNumberEngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfNumberIsDivisbleBy3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="49e7ae43-e2c1-421e-aa49-d6cde7496027" executionId="f3aeac7b-572d-44ab-9387-347ceaa4351c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="488f322f-562e-f4c2-7b40-833b44bfe529" executionId="2777ead7-359e-4309-a696-42e5fcc83443" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f3aeac7b-572d-44ab-9387-347ceaa4351c" testId="49e7ae43-e2c1-421e-aa49-d6cde7496027" testName="TestSetUp" computerName="E4LJBSL3AUMKO" duration="00:00:00.0163713" startTime="2015-10-06T11:54:19.6302465+05:30" endTime="2015-10-06T11:54:19.9102625+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3aeac7b-572d-44ab-9387-347ceaa4351c">
+    </UnitTestResult>
+    <UnitTestResult executionId="2777ead7-359e-4309-a696-42e5fcc83443" testId="488f322f-562e-f4c2-7b40-833b44bfe529" testName="TestIfNumberIsDivisbleBy3" computerName="E4LJBSL3AUMKO" duration="00:00:00.0435677" startTime="2015-10-06T11:54:19.9122626+05:30" endTime="2015-10-06T11:54:19.9612654+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2777ead7-359e-4309-a696-42e5fcc83443">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestNumberEngineLib.MathEngineTest.TestIfNumberIsDivisbleBy3 threw exception: 
+System.NotImplementedException: The method or operation is not implemented.</Message>
+          <StackTrace>    at NumberEngineLib.MathEngine.Compute(Int32 number) in C:\Users\prabhu.E4LJBSL3AUMKO\Dropbox\TDD_Dot_NET\Oct_2015\Day01\NumberEngineLib\MathEngine.cs:line 12
+   at TestNumberEngineLib.MathEngineTest.TestIfNumberIsDivisbleBy3() in C:\Users\prabhu.E4LJBSL3AUMKO\Dropbox\TDD_Dot_NET\Oct_2015\Day01\TestNumberEngineLib\MathEngineTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

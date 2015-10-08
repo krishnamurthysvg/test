@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c0b47f7d-c663-497e-bdf5-978de0ea0b46" name="prabhu@E4LJBSL3AUMKO 2015-10-06 12:03:46" runUser="E4LJBSL3AUMKO\prabhu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9ad66556-e6a8-4430-a7ec-98e16b258229">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="prabhu_E4LJBSL3AUMKO 2015-10-06 12_03_46">
+      <DeploymentItem filename="C:\Users\prabhu.E4LJBSL3AUMKO\Dropbox\TDD_Dot_NET\Oct_2015\Day01\NumberEngineLib\bin\Debug\NumberEngineLib.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-06T12:03:46.1456493+05:30" queuing="2015-10-06T12:03:46.2076529+05:30" start="2015-10-06T12:03:46.2356545+05:30" finish="2015-10-06T12:03:46.5906748+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" passed="6" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestIfNumberIsDivisbleBy5" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day01\testnumberenginelib\bin\debug\testnumberenginelib.dll" id="d48510b2-4782-7bd5-65f1-d1f06912c5d7">
+      <Execution id="0da1fcd9-2155-4f91-9f52-ee2f9319c128" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day01/TestNumberEngineLib/bin/Debug/TestNumberEngineLib.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestNumberEngineLib.MathEngineTest, TestNumberEngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfNumberIsDivisbleBy5" />
+    </UnitTest>
+    <UnitTest name="TestIfNumberIsDivisbleBy3And5" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day01\testnumberenginelib\bin\debug\testnumberenginelib.dll" id="b15ad5a5-5ade-25aa-2ec2-b7b61e917616">
+      <Execution id="d8b8413a-72eb-42c2-bcfc-10f4e9d3d228" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day01/TestNumberEngineLib/bin/Debug/TestNumberEngineLib.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestNumberEngineLib.MathEngineTest, TestNumberEngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfNumberIsDivisbleBy3And5" />
+    </UnitTest>
+    <UnitTest name="TestIfNumberHas3InIt" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day01\testnumberenginelib\bin\debug\testnumberenginelib.dll" id="0146f861-6851-5e68-a0f7-7ed0f2f8f20b">
+      <Execution id="8f1dc919-53ef-47e7-ab28-1b2678ea5ee7" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day01/TestNumberEngineLib/bin/Debug/TestNumberEngineLib.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestNumberEngineLib.MathEngineTest, TestNumberEngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfNumberHas3InIt" />
+    </UnitTest>
+    <UnitTest name="TestSetUp" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day01\testnumberenginelib\bin\debug\testnumberenginelib.dll" id="49e7ae43-e2c1-421e-aa49-d6cde7496027">
+      <Execution id="7fde1869-d8b1-4d2e-a151-99d1d90bcfbd" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day01/TestNumberEngineLib/bin/Debug/TestNumberEngineLib.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestNumberEngineLib.MathEngineTest, TestNumberEngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSetUp" />
+    </UnitTest>
+    <UnitTest name="TestIfNumberIsDivisbleBy3And5ForAnotherNumber" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day01\testnumberenginelib\bin\debug\testnumberenginelib.dll" id="8523407c-0e20-402f-f989-39bdb6bf7f0e">
+      <Execution id="9b10887e-0a14-4a92-ae34-8a020d5fac89" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day01/TestNumberEngineLib/bin/Debug/TestNumberEngineLib.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestNumberEngineLib.MathEngineTest, TestNumberEngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfNumberIsDivisbleBy3And5ForAnotherNumber" />
+    </UnitTest>
+    <UnitTest name="TestIfNumberIsDivisbleBy3" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day01\testnumberenginelib\bin\debug\testnumberenginelib.dll" id="488f322f-562e-f4c2-7b40-833b44bfe529">
+      <Execution id="73d56719-0dbb-4cf9-9646-bfdf7f94e488" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day01/TestNumberEngineLib/bin/Debug/TestNumberEngineLib.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestNumberEngineLib.MathEngineTest, TestNumberEngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfNumberIsDivisbleBy3" />
+    </UnitTest>
+    <UnitTest name="TestIfNumberIsNotDivisbleBy3And5" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day01\testnumberenginelib\bin\debug\testnumberenginelib.dll" id="b11dee7a-efa3-d826-fa31-5725137f8c0f">
+      <Execution id="2e3f2840-9e92-4943-98f5-b316ca157330" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day01/TestNumberEngineLib/bin/Debug/TestNumberEngineLib.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestNumberEngineLib.MathEngineTest, TestNumberEngineLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIfNumberIsNotDivisbleBy3And5" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="49e7ae43-e2c1-421e-aa49-d6cde7496027" executionId="7fde1869-d8b1-4d2e-a151-99d1d90bcfbd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="488f322f-562e-f4c2-7b40-833b44bfe529" executionId="73d56719-0dbb-4cf9-9646-bfdf7f94e488" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d48510b2-4782-7bd5-65f1-d1f06912c5d7" executionId="0da1fcd9-2155-4f91-9f52-ee2f9319c128" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b15ad5a5-5ade-25aa-2ec2-b7b61e917616" executionId="d8b8413a-72eb-42c2-bcfc-10f4e9d3d228" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8523407c-0e20-402f-f989-39bdb6bf7f0e" executionId="9b10887e-0a14-4a92-ae34-8a020d5fac89" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b11dee7a-efa3-d826-fa31-5725137f8c0f" executionId="2e3f2840-9e92-4943-98f5-b316ca157330" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0146f861-6851-5e68-a0f7-7ed0f2f8f20b" executionId="8f1dc919-53ef-47e7-ab28-1b2678ea5ee7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7fde1869-d8b1-4d2e-a151-99d1d90bcfbd" testId="49e7ae43-e2c1-421e-aa49-d6cde7496027" testName="TestSetUp" computerName="E4LJBSL3AUMKO" duration="00:00:00.0162395" startTime="2015-10-06T12:03:46.2366545+05:30" endTime="2015-10-06T12:03:46.4846687+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7fde1869-d8b1-4d2e-a151-99d1d90bcfbd">
+    </UnitTestResult>
+    <UnitTestResult executionId="73d56719-0dbb-4cf9-9646-bfdf7f94e488" testId="488f322f-562e-f4c2-7b40-833b44bfe529" testName="TestIfNumberIsDivisbleBy3" computerName="E4LJBSL3AUMKO" duration="00:00:00.0007341" startTime="2015-10-06T12:03:46.4906691+05:30" endTime="2015-10-06T12:03:46.4966694+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73d56719-0dbb-4cf9-9646-bfdf7f94e488">
+    </UnitTestResult>
+    <UnitTestResult executionId="0da1fcd9-2155-4f91-9f52-ee2f9319c128" testId="d48510b2-4782-7bd5-65f1-d1f06912c5d7" testName="TestIfNumberIsDivisbleBy5" computerName="E4LJBSL3AUMKO" duration="00:00:00.0003034" startTime="2015-10-06T12:03:46.4996696+05:30" endTime="2015-10-06T12:03:46.5086701+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0da1fcd9-2155-4f91-9f52-ee2f9319c128">
+    </UnitTestResult>
+    <UnitTestResult executionId="d8b8413a-72eb-42c2-bcfc-10f4e9d3d228" testId="b15ad5a5-5ade-25aa-2ec2-b7b61e917616" testName="TestIfNumberIsDivisbleBy3And5" computerName="E4LJBSL3AUMKO" duration="00:00:00.0003668" startTime="2015-10-06T12:03:46.5106702+05:30" endTime="2015-10-06T12:03:46.5196707+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8b8413a-72eb-42c2-bcfc-10f4e9d3d228">
+    </UnitTestResult>
+    <UnitTestResult executionId="9b10887e-0a14-4a92-ae34-8a020d5fac89" testId="8523407c-0e20-402f-f989-39bdb6bf7f0e" testName="TestIfNumberIsDivisbleBy3And5ForAnotherNumber" computerName="E4LJBSL3AUMKO" duration="00:00:00.0003270" startTime="2015-10-06T12:03:46.5226709+05:30" endTime="2015-10-06T12:03:46.5276712+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b10887e-0a14-4a92-ae34-8a020d5fac89">
+    </UnitTestResult>
+    <UnitTestResult executionId="2e3f2840-9e92-4943-98f5-b316ca157330" testId="b11dee7a-efa3-d826-fa31-5725137f8c0f" testName="TestIfNumberIsNotDivisbleBy3And5" computerName="E4LJBSL3AUMKO" duration="00:00:00.0003818" startTime="2015-10-06T12:03:46.5296713+05:30" endTime="2015-10-06T12:03:46.5346716+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e3f2840-9e92-4943-98f5-b316ca157330">
+    </UnitTestResult>
+    <UnitTestResult executionId="8f1dc919-53ef-47e7-ab28-1b2678ea5ee7" testId="0146f861-6851-5e68-a0f7-7ed0f2f8f20b" testName="TestIfNumberHas3InIt" computerName="E4LJBSL3AUMKO" duration="00:00:00.0234825" startTime="2015-10-06T12:03:46.5366717+05:30" endTime="2015-10-06T12:03:46.5636732+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f1dc919-53ef-47e7-ab28-1b2678ea5ee7">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;Hot (System.String)&gt;. Actual:&lt;13 (System.Int32)&gt;. </Message>
+          <StackTrace>   at TestNumberEngineLib.MathEngineTest.TestIfNumberHas3InIt() in C:\Users\prabhu.E4LJBSL3AUMKO\Dropbox\TDD_Dot_NET\Oct_2015\Day01\TestNumberEngineLib\MathEngineTest.cs:line 66
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,39 @@
+You will implement a guessing game using TDD. 
+The application generates a random number between 1 and 100.
+The user will play the game till he/she guesses the number correct. 
+For example, if the target number is 77, here's an example of how game is played.
+
+Enter a number between 1 and 100
+->50
+Aim Higher
+->75
+Aim Higher
+->80
+Aim Lower
+->77
+You've got it in 4 attempts. Do you want to play a new game?
+->Yes
+
+Enter a number between 1 and 100
+...
+...
+You will implement a web/windows/mobile version of the application.
+
+Here's the list of test conditions you can use.
+
+assert the number generated between 1 and 100
+attempts should be 0 in the beginning
+test invalid input
+message is Aim Higher 
+message is Aim Lower
+message is You've got it when user guesses the number correct
+test correct number of attempts
+test if the user tries to play after the game is over
+test for a new game and new target generated
+
+and so on.
+
+Keep the code simple. 
+Write a test method and make only that test method successful.
+Remember each test is independent of the other.
+PAIR-UP and code so that you don't give up.

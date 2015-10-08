@@ -1,0 +1,38 @@
+I am a great fan of katas. Here is one such kata.
+
+A Maths teacher decides he should make his class more "fun" by introducing a "game". He explains that he is going to point at each pupil in turn and ask them to say the next number in sequence, starting from one. The "fun" part is that if the number is divisible by three, you instead say "Hot" and if it is divisible by five you say "Hotter". So now your maths teacher is pointing at all of your classmates in turn, and they happily shout "one!", "two!", "Hot!", "four!", "Hotter!"...
+
+Your class has about 33 pupils and he might go round three times before the bell rings for breaktime.  Get coding!
+
+Write a program that prints the numbers from 1 to 100. But for multiples of three print "Hot" instead of the number and for the multiples of five print "Hotter". For numbers which are multiples of both three and five print "HotHotter?".
+
+1
+2
+Hot
+4
+Hotter
+Hot
+7
+8
+Hot
+Hotter
+11
+Hot
+13
+14
+HotHotter
+16
+17
+... etc up to 100
+
+Wait for the requirement change after this.
+
+--->Requirement addition I<---
+
+1) If the number has 3 in it, the student has to say "Hot", so if the number is 13, the person should say "Hot"
+2) If the number has 5 in it, the student has to say "Hotter", so if the number is 56, the person should say "Hotter"
+3) If the number has 3 and 5 in it, the student should say "HotHotter"
+
+--->Requirement addition II<---
+
+1) I want to try this game with senior students as well. So instead of starting from 1 to 100, I would choose to start from say, 200 to 400 for class IV students, say from 1000 to 1300 for class V students and so on.

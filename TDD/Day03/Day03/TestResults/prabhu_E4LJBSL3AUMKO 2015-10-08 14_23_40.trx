@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="acd30c8f-dcac-449d-8efc-1a116164d493" name="prabhu@E4LJBSL3AUMKO 2015-10-08 14:23:40" runUser="E4LJBSL3AUMKO\prabhu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a92510ab-ef01-4df1-9b52-b02ce5ed9e95">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="prabhu_E4LJBSL3AUMKO 2015-10-08 14_23_40">
+      <DeploymentItem filename="C:\Users\prabhu.E4LJBSL3AUMKO\Dropbox\TDD_Dot_NET\Oct_2015\Day03\MockExLib\bin\Debug\MockExLib.dll" />
+      <DeploymentItem filename="C:\Users\prabhu.E4LJBSL3AUMKO\Dropbox\TDD_Dot_NET\Oct_2015\Day03\packages\Moq.4.2.1507.0118\lib\net40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-08T14:23:40.5369392+05:30" queuing="2015-10-08T14:23:40.8089548+05:30" start="2015-10-08T14:23:42.2370364+05:30" finish="2015-10-08T14:23:45.2112066+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestSetUp" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day03\mockextest\bin\debug\mockextest.dll" id="0a68b175-229b-9e34-c511-f8a3e62f8615">
+      <Execution id="519b2e5d-04d8-4583-bf6b-88f1392b762a" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day03/MockExTest/bin/Debug/MockExTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockExTest.AuthenticationServiceTest, MockExTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSetUp" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0a68b175-229b-9e34-c511-f8a3e62f8615" executionId="519b2e5d-04d8-4583-bf6b-88f1392b762a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="519b2e5d-04d8-4583-bf6b-88f1392b762a" testId="0a68b175-229b-9e34-c511-f8a3e62f8615" testName="TestSetUp" computerName="E4LJBSL3AUMKO" duration="00:00:00.0850363" startTime="2015-10-08T14:23:42.5020516+05:30" endTime="2015-10-08T14:23:44.9921940+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="519b2e5d-04d8-4583-bf6b-88f1392b762a">
+    </UnitTestResult>
+  </Results>
+</TestRun>

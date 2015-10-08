@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGameLib", "GuessingGameLib\GuessingGameLib.csproj", "{E21B944C-C808-47E1-9DAE-A517ED46C2BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGameTest", "GuessingGameTest\GuessingGameTest.csproj", "{74E08B59-0A88-4B8B-84A2-E224A7C0D41D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockExLib", "MockExLib\MockExLib.csproj", "{10E74BCD-7A5C-4AF6-B0B8-849926820EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockExTest", "MockExTest\MockExTest.csproj", "{11CB9113-9D4B-41C3-8F8F-344D3D89D221}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{64990EC8-BFDA-4813-89B0-62746D544640}"
+	ProjectSection(SolutionItems) = preProject
+		Day03.vsmdi = Day03.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockExIntegrationTests", "MockExIntegrationTests\MockExIntegrationTests.csproj", "{EE24AD59-42B7-4FC7-93F6-51FCEF551795}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Day03.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E21B944C-C808-47E1-9DAE-A517ED46C2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E21B944C-C808-47E1-9DAE-A517ED46C2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E21B944C-C808-47E1-9DAE-A517ED46C2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E21B944C-C808-47E1-9DAE-A517ED46C2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E08B59-0A88-4B8B-84A2-E224A7C0D41D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E08B59-0A88-4B8B-84A2-E224A7C0D41D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E08B59-0A88-4B8B-84A2-E224A7C0D41D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E08B59-0A88-4B8B-84A2-E224A7C0D41D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E74BCD-7A5C-4AF6-B0B8-849926820EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E74BCD-7A5C-4AF6-B0B8-849926820EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E74BCD-7A5C-4AF6-B0B8-849926820EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E74BCD-7A5C-4AF6-B0B8-849926820EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11CB9113-9D4B-41C3-8F8F-344D3D89D221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11CB9113-9D4B-41C3-8F8F-344D3D89D221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11CB9113-9D4B-41C3-8F8F-344D3D89D221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11CB9113-9D4B-41C3-8F8F-344D3D89D221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE24AD59-42B7-4FC7-93F6-51FCEF551795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE24AD59-42B7-4FC7-93F6-51FCEF551795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE24AD59-42B7-4FC7-93F6-51FCEF551795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE24AD59-42B7-4FC7-93F6-51FCEF551795}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

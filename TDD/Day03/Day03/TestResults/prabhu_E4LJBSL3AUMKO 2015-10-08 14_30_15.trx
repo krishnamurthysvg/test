@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5467ca4a-2e5e-40bf-9455-843013616b3d" name="prabhu@E4LJBSL3AUMKO 2015-10-08 14:30:15" runUser="E4LJBSL3AUMKO\prabhu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a92510ab-ef01-4df1-9b52-b02ce5ed9e95">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="prabhu_E4LJBSL3AUMKO 2015-10-08 14_30_15">
+      <DeploymentItem filename="C:\Users\prabhu.E4LJBSL3AUMKO\Dropbox\TDD_Dot_NET\Oct_2015\Day03\MockExLib\bin\Debug\MockExLib.dll" />
+      <DeploymentItem filename="C:\Users\prabhu.E4LJBSL3AUMKO\Dropbox\TDD_Dot_NET\Oct_2015\Day03\packages\Moq.4.2.1507.0118\lib\net40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-08T14:30:15.9355547+05:30" queuing="2015-10-08T14:30:16.0145592+05:30" start="2015-10-08T14:30:16.0205596+05:30" finish="2015-10-08T14:30:17.1886264+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestSetUp" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day03\mockextest\bin\debug\mockextest.dll" id="0a68b175-229b-9e34-c511-f8a3e62f8615">
+      <Execution id="2c0c89f2-51c1-4dc5-9d87-44b2f9c4aeb4" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day03/MockExTest/bin/Debug/MockExTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockExTest.AuthenticationServiceTest, MockExTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSetUp" />
+    </UnitTest>
+    <UnitTest name="TestCreateUserWriteToRepository" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day03\mockextest\bin\debug\mockextest.dll" id="dcd1dfc1-6514-535c-e185-ad8a85bb05c6">
+      <Execution id="19e3d00a-d764-4fdb-964e-93d69b7f4406" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day03/MockExTest/bin/Debug/MockExTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockExTest.AuthenticationServiceTest, MockExTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCreateUserWriteToRepository" />
+    </UnitTest>
+    <UnitTest name="TestCreateUser" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day03\mockextest\bin\debug\mockextest.dll" id="78b38898-3c4d-12cf-9f1d-c77d531de5f5">
+      <Execution id="8ba1eac6-5568-4410-96c3-1d64703fc3f9" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day03/MockExTest/bin/Debug/MockExTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockExTest.AuthenticationServiceTest, MockExTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCreateUser" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0a68b175-229b-9e34-c511-f8a3e62f8615" executionId="2c0c89f2-51c1-4dc5-9d87-44b2f9c4aeb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78b38898-3c4d-12cf-9f1d-c77d531de5f5" executionId="8ba1eac6-5568-4410-96c3-1d64703fc3f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dcd1dfc1-6514-535c-e185-ad8a85bb05c6" executionId="19e3d00a-d764-4fdb-964e-93d69b7f4406" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2c0c89f2-51c1-4dc5-9d87-44b2f9c4aeb4" testId="0a68b175-229b-9e34-c511-f8a3e62f8615" testName="TestSetUp" computerName="E4LJBSL3AUMKO" duration="00:00:00.2025730" startTime="2015-10-08T14:30:16.0375605+05:30" endTime="2015-10-08T14:30:16.5215882+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c0c89f2-51c1-4dc5-9d87-44b2f9c4aeb4">
+    </UnitTestResult>
+    <UnitTestResult executionId="8ba1eac6-5568-4410-96c3-1d64703fc3f9" testId="78b38898-3c4d-12cf-9f1d-c77d531de5f5" testName="TestCreateUser" computerName="E4LJBSL3AUMKO" duration="00:00:00.0008573" startTime="2015-10-08T14:30:16.5235883+05:30" endTime="2015-10-08T14:30:16.5275886+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ba1eac6-5568-4410-96c3-1d64703fc3f9">
+    </UnitTestResult>
+    <UnitTestResult executionId="19e3d00a-d764-4fdb-964e-93d69b7f4406" testId="dcd1dfc1-6514-535c-e185-ad8a85bb05c6" testName="TestCreateUserWriteToRepository" computerName="E4LJBSL3AUMKO" duration="00:00:00.6108438" startTime="2015-10-08T14:30:16.5305887+05:30" endTime="2015-10-08T14:30:17.1446239+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19e3d00a-d764-4fdb-964e-93d69b7f4406">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MockExTest.AuthenticationServiceTest.TestCreateUserWriteToRepository threw exception: 
+Moq.MockException: 
+Expected invocation on the mock once, but was 0 times: f =&gt; f.SaveUser(It.IsAny&lt;String&gt;(), It.IsAny&lt;String&gt;())
+No setups configured.
+No invocations performed.</Message>
+          <StackTrace>    at Moq.Mock.ThrowVerifyException(MethodCall expected, IEnumerable`1 setups, IEnumerable`1 actualCalls, Expression expression, Times times, Int32 callCount)
+   at Moq.Mock.VerifyCalls(Interceptor targetInterceptor, MethodCall expected, Expression expression, Times times)
+   at Moq.Mock.Verify[T,TResult](Mock`1 mock, Expression`1 expression, Times times, String failMessage)
+   at Moq.Mock`1.Verify[TResult](Expression`1 expression, Func`1 times)
+   at MockExTest.AuthenticationServiceTest.TestCreateUserWriteToRepository() in C:\Users\prabhu.E4LJBSL3AUMKO\Dropbox\TDD_Dot_NET\Oct_2015\Day03\MockExTest\AuthenticationServiceTest.cs:line 44
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

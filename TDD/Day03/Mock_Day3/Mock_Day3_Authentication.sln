@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGame", "GuessingGame\GuessingGame.csproj", "{488C353B-AC6D-42BD-B636-6127751477A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGameTest", "GuessingGameTest\GuessingGameTest.csproj", "{11F3B6FD-EE98-482A-9226-C94A1FB2069B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06E1AEC6-114A-4295-B21A-D782829A1281}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Mock_Day3_Authentication.vsmdi = Mock_Day3_Authentication.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Mock_Day3_Authentication.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{488C353B-AC6D-42BD-B636-6127751477A3}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{488C353B-AC6D-42BD-B636-6127751477A3}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{488C353B-AC6D-42BD-B636-6127751477A3}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{488C353B-AC6D-42BD-B636-6127751477A3}.Debug|x86.ActiveCfg = Debug|x86
+		{488C353B-AC6D-42BD-B636-6127751477A3}.Debug|x86.Build.0 = Debug|x86
+		{488C353B-AC6D-42BD-B636-6127751477A3}.Release|Any CPU.ActiveCfg = Release|x86
+		{488C353B-AC6D-42BD-B636-6127751477A3}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{488C353B-AC6D-42BD-B636-6127751477A3}.Release|Mixed Platforms.Build.0 = Release|x86
+		{488C353B-AC6D-42BD-B636-6127751477A3}.Release|x86.ActiveCfg = Release|x86
+		{488C353B-AC6D-42BD-B636-6127751477A3}.Release|x86.Build.0 = Release|x86
+		{11F3B6FD-EE98-482A-9226-C94A1FB2069B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F3B6FD-EE98-482A-9226-C94A1FB2069B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F3B6FD-EE98-482A-9226-C94A1FB2069B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{11F3B6FD-EE98-482A-9226-C94A1FB2069B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{11F3B6FD-EE98-482A-9226-C94A1FB2069B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{11F3B6FD-EE98-482A-9226-C94A1FB2069B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F3B6FD-EE98-482A-9226-C94A1FB2069B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F3B6FD-EE98-482A-9226-C94A1FB2069B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{11F3B6FD-EE98-482A-9226-C94A1FB2069B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{11F3B6FD-EE98-482A-9226-C94A1FB2069B}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -12,3 +12,12 @@ C:\Users\admin\Desktop\TDD\Day3\Day3Application\GameCon\bin\Debug\GameCon.pdb
 C:\Users\admin\Desktop\TDD\Day3\Day3Application\GameCon\bin\Debug\GuessingGameLib.dll
 C:\Users\admin\Desktop\TDD\Day3\Day3Application\GameCon\bin\Debug\GuessingGameLib.pdb
 C:\Users\admin\Desktop\TDD\Day3\Day3Application\GameCon\obj\x86\Debug\GameCon.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Git\test\TDD\Day3Application\GameCon\obj\x86\Debug\GameCon.exe
+C:\Users\admin\Documents\Git\test\TDD\Day3Application\GameCon\obj\x86\Debug\GameCon.pdb
+C:\Users\admin\Documents\Git\test\TDD\Day3Application\GameCon\bin\Debug\GameCon.exe
+C:\Users\admin\Documents\Git\test\TDD\Day3Application\GameCon\bin\Debug\GameCon.pdb
+C:\Users\admin\Documents\Git\test\TDD\Day3Application\GameCon\bin\Debug\GuessingGameLib.dll
+C:\Users\admin\Documents\Git\test\TDD\Day3Application\GameCon\bin\Debug\Moq.dll
+C:\Users\admin\Documents\Git\test\TDD\Day3Application\GameCon\bin\Debug\GuessingGameLib.pdb
+C:\Users\admin\Documents\Git\test\TDD\Day3Application\GameCon\bin\Debug\Moq.xml
+C:\Users\admin\Documents\Git\test\TDD\Day3Application\GameCon\obj\x86\Debug\GameCon.csprojResolveAssemblyReference.cache

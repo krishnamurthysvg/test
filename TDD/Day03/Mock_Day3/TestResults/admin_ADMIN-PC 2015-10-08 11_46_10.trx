@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9c511950-5fbc-40b5-8d04-f70bc4f9ce9b" name="admin@ADMIN-PC 2015-10-08 11:46:10" runUser="admin-PC\admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="76a2199c-02f9-4368-8a5a-ef704b2ebf23">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="admin_ADMIN-PC 2015-10-08 11_46_10">
+      <DeploymentItem filename="C:\Users\admin\Desktop\TDD\Day3\Mock_Day3\GuessingGame\bin\Debug\GuessingGame.exe" />
+      <DeploymentItem filename="C:\Users\admin\Desktop\TDD\Day3\Mock_Day3\packages\Moq.4.2.1507.0118\lib\net40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-08T11:46:10.2314032+05:30" queuing="2015-10-08T11:46:10.7734342+05:30" start="2015-10-08T11:46:10.8334377+05:30" finish="2015-10-08T11:46:11.1294546+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="18" executed="18" passed="18" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestRecheckMessageForANewGame" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="14989ee5-f920-4cba-5464-815fc8d69ce4">
+      <Execution id="70596623-01dd-44f8-bd0a-9b6530b42fc5" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRecheckMessageForANewGame" />
+    </UnitTest>
+    <UnitTest name="TestYouHaveGotIt" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="82b5fb27-e007-2126-2427-9ad63de48e6a">
+      <Execution id="4b84c3b6-1bf3-498d-b117-2f17b2bac97a" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestYouHaveGotIt" />
+    </UnitTest>
+    <UnitTest name="TestRecheckAttemptsForANewGame" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="2c41f2d0-09ea-b0b6-73bf-e7ef8d1c3ed7">
+      <Execution id="c446564d-f0e4-4b2b-8fa5-4db0747a75f2" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRecheckAttemptsForANewGame" />
+    </UnitTest>
+    <UnitTest name="TestSetUp" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="11253453-90e8-6ca1-392d-2547973a3227">
+      <Execution id="2742699c-6306-404e-a2e4-76dab66afcbd" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSetUp" />
+    </UnitTest>
+    <UnitTest name="TestPlayGameAfterItIsOver" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="f9df3825-19bf-bb57-b484-2e9d65882f4b">
+      <Execution id="4924c852-c7c6-4894-accc-625c31c3cc4b" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlayGameAfterItIsOver" />
+    </UnitTest>
+    <UnitTest name="TestRandomNumberIsGeneratedInTheBeginning" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="1a1c144d-ce73-aa9b-570a-49bad93ff6fa">
+      <Execution id="a6877228-da9b-46f3-b66c-2d75ed6e2a72" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRandomNumberIsGeneratedInTheBeginning" />
+    </UnitTest>
+    <UnitTest name="TestAttempts" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="ba3762ce-ee2e-7e82-7a8e-6f0cbfc87847">
+      <Execution id="15e67342-54a9-4d2f-b878-9b56c432a18c" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAttempts" />
+    </UnitTest>
+    <UnitTest name="TestPromptToPlayANewGame" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="2a2b8345-fe8d-b0d8-2cce-5d11b1338f45">
+      <Execution id="0fda74f5-0dbe-4cb0-8af7-96d299ebaf9f" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPromptToPlayANewGame" />
+    </UnitTest>
+    <UnitTest name="TestInvalidInput" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="77d43181-15d8-b97d-99c1-c41ccb8a1638">
+      <Execution id="aa5ee0cb-bc9a-4e8d-a46a-e7525d617c52" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestInvalidInput" />
+    </UnitTest>
+    <UnitTest name="TestAimHigher" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="ceb44132-f167-0714-303f-b1094fb0239e">
+      <Execution id="afbd058c-bef3-4ed7-984a-888c5f6be838" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAimHigher" />
+    </UnitTest>
+    <UnitTest name="TestGameOverInTheBeginning" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="d333fb74-d101-998c-99ac-1cde3db19dde">
+      <Execution id="d331781a-caba-4f3d-adc7-4d9b6db34a86" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestGameOverInTheBeginning" />
+    </UnitTest>
+    <UnitTest name="TestAttemptsToBe0InTheBeginning" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="fcc68d57-966b-cdc0-85b4-f08f288561ba">
+      <Execution id="90c07bd5-5e6f-4ea0-a6b2-0bfa86e85027" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAttemptsToBe0InTheBeginning" />
+    </UnitTest>
+    <UnitTest name="TestStoreResultsBeforeGameIsOver" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="a237c4d9-82e1-6a4f-8908-45a6d1d61949">
+      <Execution id="8542bbee-86a7-413a-8455-1f70cff046fe" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestStoreResultsBeforeGameIsOver" />
+    </UnitTest>
+    <UnitTest name="TestRecheckTargetForANewGame" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="00193f25-a6a9-b907-11b9-1ed9b64c0056">
+      <Execution id="95c40380-e926-44a9-b7e4-b2969a21d9a5" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestRecheckTargetForANewGame" />
+    </UnitTest>
+    <UnitTest name="TestStoreResultsAfterGameIsOver" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="5d188e60-30fe-f978-9d27-8ad2c529c019">
+      <Execution id="9bf2816b-3216-42a1-88d4-e9321e736a77" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestStoreResultsAfterGameIsOver" />
+    </UnitTest>
+    <UnitTest name="TestMessageToBeNullInTheBeginning" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="05bdf578-6d83-1759-a4fc-8a1031728afb">
+      <Execution id="bbe14b7b-9310-4e99-beb3-a709354e623e" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMessageToBeNullInTheBeginning" />
+    </UnitTest>
+    <UnitTest name="TestAimLower" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="b7d9ed4e-6982-6de5-6f20-55251a5ee62a">
+      <Execution id="8b53bdfd-9394-4444-aef0-097a8042fbab" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAimLower" />
+    </UnitTest>
+    <UnitTest name="TestPlayANewGameWhenTheExistingGameIsInProgress" storage="c:\users\admin\desktop\tdd\day3\mock_day3\guessinggametest\bin\debug\guessinggametest.dll" id="479aae6d-442e-d15c-932e-7295043af9ef">
+      <Execution id="8ce11ced-f863-4736-be64-b2d6e41dfd54" />
+      <TestMethod codeBase="C:/Users/admin/Desktop/TDD/Day3/Mock_Day3/GuessingGameTest/bin/Debug/GuessingGameTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GuessingGameTest.GameTest, GuessingGameTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestPlayANewGameWhenTheExistingGameIsInProgress" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="00193f25-a6a9-b907-11b9-1ed9b64c0056" executionId="95c40380-e926-44a9-b7e4-b2969a21d9a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05bdf578-6d83-1759-a4fc-8a1031728afb" executionId="bbe14b7b-9310-4e99-beb3-a709354e623e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11253453-90e8-6ca1-392d-2547973a3227" executionId="2742699c-6306-404e-a2e4-76dab66afcbd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14989ee5-f920-4cba-5464-815fc8d69ce4" executionId="70596623-01dd-44f8-bd0a-9b6530b42fc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a1c144d-ce73-aa9b-570a-49bad93ff6fa" executionId="a6877228-da9b-46f3-b66c-2d75ed6e2a72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a2b8345-fe8d-b0d8-2cce-5d11b1338f45" executionId="0fda74f5-0dbe-4cb0-8af7-96d299ebaf9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c41f2d0-09ea-b0b6-73bf-e7ef8d1c3ed7" executionId="c446564d-f0e4-4b2b-8fa5-4db0747a75f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="479aae6d-442e-d15c-932e-7295043af9ef" executionId="8ce11ced-f863-4736-be64-b2d6e41dfd54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d188e60-30fe-f978-9d27-8ad2c529c019" executionId="9bf2816b-3216-42a1-88d4-e9321e736a77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77d43181-15d8-b97d-99c1-c41ccb8a1638" executionId="aa5ee0cb-bc9a-4e8d-a46a-e7525d617c52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82b5fb27-e007-2126-2427-9ad63de48e6a" executionId="4b84c3b6-1bf3-498d-b117-2f17b2bac97a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a237c4d9-82e1-6a4f-8908-45a6d1d61949" executionId="8542bbee-86a7-413a-8455-1f70cff046fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7d9ed4e-6982-6de5-6f20-55251a5ee62a" executionId="8b53bdfd-9394-4444-aef0-097a8042fbab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba3762ce-ee2e-7e82-7a8e-6f0cbfc87847" executionId="15e67342-54a9-4d2f-b878-9b56c432a18c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ceb44132-f167-0714-303f-b1094fb0239e" executionId="afbd058c-bef3-4ed7-984a-888c5f6be838" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d333fb74-d101-998c-99ac-1cde3db19dde" executionId="d331781a-caba-4f3d-adc7-4d9b6db34a86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9df3825-19bf-bb57-b484-2e9d65882f4b" executionId="4924c852-c7c6-4894-accc-625c31c3cc4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fcc68d57-966b-cdc0-85b4-f08f288561ba" executionId="90c07bd5-5e6f-4ea0-a6b2-0bfa86e85027" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="95c40380-e926-44a9-b7e4-b2969a21d9a5" testId="00193f25-a6a9-b907-11b9-1ed9b64c0056" testName="TestRecheckTargetForANewGame" computerName="ADMIN-PC" duration="00:00:00.0091086" startTime="2015-10-08T11:46:10.8544389+05:30" endTime="2015-10-08T11:46:11.0164481+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95c40380-e926-44a9-b7e4-b2969a21d9a5">
+    </UnitTestResult>
+    <UnitTestResult executionId="bbe14b7b-9310-4e99-beb3-a709354e623e" testId="05bdf578-6d83-1759-a4fc-8a1031728afb" testName="TestMessageToBeNullInTheBeginning" computerName="ADMIN-PC" duration="00:00:00.0001642" startTime="2015-10-08T11:46:11.0174482+05:30" endTime="2015-10-08T11:46:11.0254487+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bbe14b7b-9310-4e99-beb3-a709354e623e">
+    </UnitTestResult>
+    <UnitTestResult executionId="2742699c-6306-404e-a2e4-76dab66afcbd" testId="11253453-90e8-6ca1-392d-2547973a3227" testName="TestSetUp" computerName="ADMIN-PC" duration="00:00:00.0001069" startTime="2015-10-08T11:46:11.0264487+05:30" endTime="2015-10-08T11:46:11.0284488+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2742699c-6306-404e-a2e4-76dab66afcbd">
+    </UnitTestResult>
+    <UnitTestResult executionId="70596623-01dd-44f8-bd0a-9b6530b42fc5" testId="14989ee5-f920-4cba-5464-815fc8d69ce4" testName="TestRecheckMessageForANewGame" computerName="ADMIN-PC" duration="00:00:00.0002049" startTime="2015-10-08T11:46:11.0294489+05:30" endTime="2015-10-08T11:46:11.0334491+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70596623-01dd-44f8-bd0a-9b6530b42fc5">
+    </UnitTestResult>
+    <UnitTestResult executionId="a6877228-da9b-46f3-b66c-2d75ed6e2a72" testId="1a1c144d-ce73-aa9b-570a-49bad93ff6fa" testName="TestRandomNumberIsGeneratedInTheBeginning" computerName="ADMIN-PC" duration="00:00:00.0001325" startTime="2015-10-08T11:46:11.0344492+05:30" endTime="2015-10-08T11:46:11.0374493+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6877228-da9b-46f3-b66c-2d75ed6e2a72">
+    </UnitTestResult>
+    <UnitTestResult executionId="0fda74f5-0dbe-4cb0-8af7-96d299ebaf9f" testId="2a2b8345-fe8d-b0d8-2cce-5d11b1338f45" testName="TestPromptToPlayANewGame" computerName="ADMIN-PC" duration="00:00:00.0001653" startTime="2015-10-08T11:46:11.0374493+05:30" endTime="2015-10-08T11:46:11.0404495+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0fda74f5-0dbe-4cb0-8af7-96d299ebaf9f">
+    </UnitTestResult>
+    <UnitTestResult executionId="c446564d-f0e4-4b2b-8fa5-4db0747a75f2" testId="2c41f2d0-09ea-b0b6-73bf-e7ef8d1c3ed7" testName="TestRecheckAttemptsForANewGame" computerName="ADMIN-PC" duration="00:00:00.0001687" startTime="2015-10-08T11:46:11.0414496+05:30" endTime="2015-10-08T11:46:11.0464499+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c446564d-f0e4-4b2b-8fa5-4db0747a75f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="8ce11ced-f863-4736-be64-b2d6e41dfd54" testId="479aae6d-442e-d15c-932e-7295043af9ef" testName="TestPlayANewGameWhenTheExistingGameIsInProgress" computerName="ADMIN-PC" duration="00:00:00.0020119" startTime="2015-10-08T11:46:11.0474499+05:30" endTime="2015-10-08T11:46:11.0514501+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ce11ced-f863-4736-be64-b2d6e41dfd54">
+    </UnitTestResult>
+    <UnitTestResult executionId="9bf2816b-3216-42a1-88d4-e9321e736a77" testId="5d188e60-30fe-f978-9d27-8ad2c529c019" testName="TestStoreResultsAfterGameIsOver" computerName="ADMIN-PC" duration="00:00:00.0004245" startTime="2015-10-08T11:46:11.0534503+05:30" endTime="2015-10-08T11:46:11.0554504+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bf2816b-3216-42a1-88d4-e9321e736a77">
+    </UnitTestResult>
+    <UnitTestResult executionId="aa5ee0cb-bc9a-4e8d-a46a-e7525d617c52" testId="77d43181-15d8-b97d-99c1-c41ccb8a1638" testName="TestInvalidInput" computerName="ADMIN-PC" duration="00:00:00.0003771" startTime="2015-10-08T11:46:11.0564504+05:30" endTime="2015-10-08T11:46:11.0594506+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa5ee0cb-bc9a-4e8d-a46a-e7525d617c52">
+    </UnitTestResult>
+    <UnitTestResult executionId="4b84c3b6-1bf3-498d-b117-2f17b2bac97a" testId="82b5fb27-e007-2126-2427-9ad63de48e6a" testName="TestYouHaveGotIt" computerName="ADMIN-PC" duration="00:00:00.0001536" startTime="2015-10-08T11:46:11.0604507+05:30" endTime="2015-10-08T11:46:11.0634508+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b84c3b6-1bf3-498d-b117-2f17b2bac97a">
+    </UnitTestResult>
+    <UnitTestResult executionId="8542bbee-86a7-413a-8455-1f70cff046fe" testId="a237c4d9-82e1-6a4f-8908-45a6d1d61949" testName="TestStoreResultsBeforeGameIsOver" computerName="ADMIN-PC" duration="00:00:00.0004367" startTime="2015-10-08T11:46:11.0644509+05:30" endTime="2015-10-08T11:46:11.0674511+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8542bbee-86a7-413a-8455-1f70cff046fe">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b53bdfd-9394-4444-aef0-097a8042fbab" testId="b7d9ed4e-6982-6de5-6f20-55251a5ee62a" testName="TestAimLower" computerName="ADMIN-PC" duration="00:00:00.0001473" startTime="2015-10-08T11:46:11.0684511+05:30" endTime="2015-10-08T11:46:11.0714513+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b53bdfd-9394-4444-aef0-097a8042fbab">
+    </UnitTestResult>
+    <UnitTestResult executionId="15e67342-54a9-4d2f-b878-9b56c432a18c" testId="ba3762ce-ee2e-7e82-7a8e-6f0cbfc87847" testName="TestAttempts" computerName="ADMIN-PC" duration="00:00:00.0006069" startTime="2015-10-08T11:46:11.0724513+05:30" endTime="2015-10-08T11:46:11.0764516+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="15e67342-54a9-4d2f-b878-9b56c432a18c">
+    </UnitTestResult>
+    <UnitTestResult executionId="afbd058c-bef3-4ed7-984a-888c5f6be838" testId="ceb44132-f167-0714-303f-b1094fb0239e" testName="TestAimHigher" computerName="ADMIN-PC" duration="00:00:00.0001627" startTime="2015-10-08T11:46:11.0774516+05:30" endTime="2015-10-08T11:46:11.0794517+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afbd058c-bef3-4ed7-984a-888c5f6be838">
+    </UnitTestResult>
+    <UnitTestResult executionId="d331781a-caba-4f3d-adc7-4d9b6db34a86" testId="d333fb74-d101-998c-99ac-1cde3db19dde" testName="TestGameOverInTheBeginning" computerName="ADMIN-PC" duration="00:00:00.0001106" startTime="2015-10-08T11:46:11.0814519+05:30" endTime="2015-10-08T11:46:11.0834520+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d331781a-caba-4f3d-adc7-4d9b6db34a86">
+    </UnitTestResult>
+    <UnitTestResult executionId="4924c852-c7c6-4894-accc-625c31c3cc4b" testId="f9df3825-19bf-bb57-b484-2e9d65882f4b" testName="TestPlayGameAfterItIsOver" computerName="ADMIN-PC" duration="00:00:00.0004151" startTime="2015-10-08T11:46:11.0844520+05:30" endTime="2015-10-08T11:46:11.0874522+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4924c852-c7c6-4894-accc-625c31c3cc4b">
+    </UnitTestResult>
+    <UnitTestResult executionId="90c07bd5-5e6f-4ea0-a6b2-0bfa86e85027" testId="fcc68d57-966b-cdc0-85b4-f08f288561ba" testName="TestAttemptsToBe0InTheBeginning" computerName="ADMIN-PC" duration="00:00:00.0001086" startTime="2015-10-08T11:46:11.0884523+05:30" endTime="2015-10-08T11:46:11.0914524+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90c07bd5-5e6f-4ea0-a6b2-0bfa86e85027">
+    </UnitTestResult>
+  </Results>
+</TestRun>

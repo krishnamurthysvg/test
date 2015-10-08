@@ -35,7 +35,21 @@ namespace GameCon
             {
                 string guessNum = Console.ReadLine();
                 if (!string.IsNullOrEmpty(guessNum))
+                {
                     guess = int.Parse(guessNum);
+                    /*try
+                    {
+                        guess = int.Parse(guessNum);
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Some error with number");
+                        game.GameOver = true;
+                        game.Reset();
+                        PlayGame(game, -1, name);
+                    }*/
+                    
+                }
 
                 game.Play(guess, name);
                 Console.WriteLine(game.Message);

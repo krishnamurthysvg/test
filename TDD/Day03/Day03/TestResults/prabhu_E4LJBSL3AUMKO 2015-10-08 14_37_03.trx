@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d7a1a456-fac2-48be-b446-5442cdadcc90" name="prabhu@E4LJBSL3AUMKO 2015-10-08 14:37:03" runUser="E4LJBSL3AUMKO\prabhu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="a92510ab-ef01-4df1-9b52-b02ce5ed9e95">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="prabhu_E4LJBSL3AUMKO 2015-10-08 14_37_03">
+      <DeploymentItem filename="C:\Users\prabhu.E4LJBSL3AUMKO\Dropbox\TDD_Dot_NET\Oct_2015\Day03\MockExLib\bin\Debug\MockExLib.dll" />
+      <DeploymentItem filename="C:\Users\prabhu.E4LJBSL3AUMKO\Dropbox\TDD_Dot_NET\Oct_2015\Day03\packages\Moq.4.2.1507.0118\lib\net40\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-10-08T14:37:03.8758876+05:30" queuing="2015-10-08T14:37:03.9438914+05:30" start="2015-10-08T14:37:03.9658927+05:30" finish="2015-10-08T14:37:04.6269305+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestSetUp" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day03\mockextest\bin\debug\mockextest.dll" id="0a68b175-229b-9e34-c511-f8a3e62f8615">
+      <Execution id="4b79f9d3-8a58-4e5e-a3cd-f8087af02bff" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day03/MockExTest/bin/Debug/MockExTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockExTest.AuthenticationServiceTest, MockExTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSetUp" />
+    </UnitTest>
+    <UnitTest name="TestValidateCredentialsData" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day03\mockextest\bin\debug\mockextest.dll" id="f43ec62d-f9a3-252f-762e-1d855ef84946">
+      <Execution id="868e54f3-5153-40cd-bc92-4eae0005eafd" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day03/MockExTest/bin/Debug/MockExTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockExTest.AuthenticationServiceTest, MockExTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestValidateCredentialsData" />
+    </UnitTest>
+    <UnitTest name="TestCreateUserWriteToRepository" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day03\mockextest\bin\debug\mockextest.dll" id="dcd1dfc1-6514-535c-e185-ad8a85bb05c6">
+      <Execution id="659ab098-8a31-483e-9c91-b3b7d3990d8e" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day03/MockExTest/bin/Debug/MockExTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockExTest.AuthenticationServiceTest, MockExTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCreateUserWriteToRepository" />
+    </UnitTest>
+    <UnitTest name="TestCreateUser" storage="c:\users\prabhu.e4ljbsl3aumko\dropbox\tdd_dot_net\oct_2015\day03\mockextest\bin\debug\mockextest.dll" id="78b38898-3c4d-12cf-9f1d-c77d531de5f5">
+      <Execution id="0553efd5-bcb6-4113-acfd-6e1718ba4e1d" />
+      <TestMethod codeBase="C:/Users/prabhu.E4LJBSL3AUMKO/Dropbox/TDD_Dot_NET/Oct_2015/Day03/MockExTest/bin/Debug/MockExTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MockExTest.AuthenticationServiceTest, MockExTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCreateUser" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0a68b175-229b-9e34-c511-f8a3e62f8615" executionId="4b79f9d3-8a58-4e5e-a3cd-f8087af02bff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78b38898-3c4d-12cf-9f1d-c77d531de5f5" executionId="0553efd5-bcb6-4113-acfd-6e1718ba4e1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dcd1dfc1-6514-535c-e185-ad8a85bb05c6" executionId="659ab098-8a31-483e-9c91-b3b7d3990d8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f43ec62d-f9a3-252f-762e-1d855ef84946" executionId="868e54f3-5153-40cd-bc92-4eae0005eafd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4b79f9d3-8a58-4e5e-a3cd-f8087af02bff" testId="0a68b175-229b-9e34-c511-f8a3e62f8615" testName="TestSetUp" computerName="E4LJBSL3AUMKO" duration="00:00:00.2477858" startTime="2015-10-08T14:37:04.0038949+05:30" endTime="2015-10-08T14:37:04.5099238+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b79f9d3-8a58-4e5e-a3cd-f8087af02bff">
+    </UnitTestResult>
+    <UnitTestResult executionId="0553efd5-bcb6-4113-acfd-6e1718ba4e1d" testId="78b38898-3c4d-12cf-9f1d-c77d531de5f5" testName="TestCreateUser" computerName="E4LJBSL3AUMKO" duration="00:00:00.0607611" startTime="2015-10-08T14:37:04.5109239+05:30" endTime="2015-10-08T14:37:04.5749275+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0553efd5-bcb6-4113-acfd-6e1718ba4e1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="659ab098-8a31-483e-9c91-b3b7d3990d8e" testId="dcd1dfc1-6514-535c-e185-ad8a85bb05c6" testName="TestCreateUserWriteToRepository" computerName="E4LJBSL3AUMKO" duration="00:00:00.0171386" startTime="2015-10-08T14:37:04.5769277+05:30" endTime="2015-10-08T14:37:04.5989289+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="659ab098-8a31-483e-9c91-b3b7d3990d8e">
+    </UnitTestResult>
+    <UnitTestResult executionId="868e54f3-5153-40cd-bc92-4eae0005eafd" testId="f43ec62d-f9a3-252f-762e-1d855ef84946" testName="TestValidateCredentialsData" computerName="E4LJBSL3AUMKO" duration="00:00:00.0037686" startTime="2015-10-08T14:37:04.6009290+05:30" endTime="2015-10-08T14:37:04.6089295+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="868e54f3-5153-40cd-bc92-4eae0005eafd">
+    </UnitTestResult>
+  </Results>
+</TestRun>

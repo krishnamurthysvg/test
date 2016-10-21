@@ -29,7 +29,7 @@ $http.post('https://incandescent-fire-6901.firebaseio.com/hotelsList.json',hotel
 User name: 
 svgkrishnamurthy@gmail.com
 Password:
-Krishna@88
+K******@**
 
 
 
